@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Mane Velasco">
+    <meta name="description" content="Mi portafolio">
+    <meta name="keywords" content="HTML, CSS, JS, Bootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Mi portafolio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/patoICON.png">
+    <!-- Bootstrap CSS offline -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons offline -->
+    <!-- link href="./icons/bootstrap-icons.css" rel="stylesheet"-->
+    <!-- Bootstrap CSS online -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <!-- Bootstrap Icons online -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"> 
+    <!-- My CSS -->
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/patoICON.png" width="50" alt="My logo">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center aling-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#aboutme" aria-current="page">Sobre mí <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#references">Referencias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactme">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Me -->
+    <section class="myclass aling-items-stretch">
+        <div class="myclass-main d-flex flex-column justify-content-center aling-items-center">
+            <img class="myclass-pic rounded-circle" src="./images/ICONOp.jpg" alt="My selfie">
+            <h1>Soy Mane Velasco</h1>
+            <h2>La Debeloper </h2>
+        </div>
+        <div class="myclass-label">            
+            <img class="myclass-imagen img-fluid" src="./images/portada.jpg" alt="think twice code once">
+        </div>
+    </section>
+
+    <!-- About me -->
+    <section id="aboutme" class="about-me section-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Conoce a Mane Velasco</h2>
+            <p class="seccion-texto">
+                Soy estudiante de quinto semestre de la Licenciatura en Informática en la Universidad del Mar (UMAR), campus Puerto Escondido. Mi formación académica me ha permitido desarrollar una sólida base en diversas áreas de la tecnología, así como adquirir habilidades para la solución de problemas y el análisis crítico. <br>Estoy comprometida con mi desarrollo profesional y siempre en búsqueda de nuevos retos que me permitan aplicar y expandir mis conocimientos.
+                
+
+            </p>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="experiencia section-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!-- Programming -->
+                <div class="experiencia-columna col-12 col-md-4">                    
+                    <p class="columna experiencia-title">Programación</p>                    
+                    <i class="bi-braces"></i>
+                    <p>
+                        Tengo algo experiencia en programación C, C++ y Java. A lo largo de mi trayectoria académica, he trabajado en el desarrollo de aplicaciones y proyectos que requieren de un enfoque lógico y estructurado, lo que me ha permitido comprender a fondo las estructuras de datos, algoritmos y buenas prácticas de programación. Además, me considero una persona que disfruta de aprender nuevas tecnologías y aplicar los conceptos adquiridos a situaciones prácticas.
+                    </p>
+                    <div class="badge-contenedor">                        
+                        <span class="badge bg-primary">C</span>
+                        <span class="badge bg-primary">C++</span>
+                        <span class="badge bg-primary">Java</span>                        
+                    </div>
+                </div>
+                <!-- Design -->
+                <div class="experiencia-columna col-12 col-md-4">                    
+                    <p class="columna experiencia-title">Diseño</p>
+                    <i class="bi-window-desktop"></i>
+                    <p>
+                        He trabajado en algunos entornos de desarrollo integrados (IDEs) que facilitan el proceso de programación, entre los cuales destacan DEV-C++, Eclipse y Code VisionAVR CCompile. Mi experiencia con estas herramientas me ha permitido optimizar el proceso de codificación, depuración y mantenimiento de aplicaciones, adaptándome de manera efectiva a diferentes entornos según los requerimientos de cada proyecto. Mi objetivo es utilizar las herramientas más adecuadas para mejorar la eficiencia y calidad de mis desarrollos.
+                    </p>
+                    <div class="badge-contenedor">                        
+                        <span class="badge bg-primary">DEV-C++</span>                        
+                        <span class="badge bg-primary">Eclipse </span>
+                        <span class="badge bg-primary">Code VisionAVR </span>                        
+                    </div>
+                </div>
+                <!-- Management -->
+                <div class="experiencia-columna col-12 col-md-4">
+                    <p class="columna experiencia-title">administración</p>
+                    <i class="bi-person-gear"></i>
+                    <p>
+                        Se algo de manejo de bases de datos y la administración de información mediante el uso de herramientas especializadas como MariaDB, DBeaver y HeidiSQL. He trabajado en la creación y gestión de esquemas de bases de datos, modelado de datos y optimización de consultas, lo que me ha permitido asegurar la integridad y eficiencia en el almacenamiento de datos. Estoy interesada en profundizar mis conocimientos en este ámbito y en cómo integrarlo con aplicaciones más complejas. 
+                    </p>
+                    <div class="badge-contenedor">                        
+                        <span class="badge bg-primary">MariaDB</span>                        
+                        <span class="badge bg-primary">DBeaver </span>
+                        <span class="badge bg-primary">HeidiSQL</span>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="proyectos section-clara d-flex flex-column">
+        <h2 class="seccion-titulo">Mis Proyectos</h2>
+        <h3 class="seccion-descripcion">Proyectos hechos de 2022 a 2024. </h3>
+        <!-- gallery -->
+        <div class="container text-center proyectos-contenedor">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="./images/contabilidad.jpg" alt="contabilidad">
+                        <div class="overlay">
+                            <p>Libro de cuentas</p>
+                            <div class="icons-project">
+                                <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/Libro%20de%20cuentas" target="_blank" rel="Libro de cuentas">
+                                    <i class="bi-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="./images/calculadora.jpg" alt="calculadora">
+                        <div class="overlay">
+                            <p>calculadora con teclado</p>
+                            <div class="icons-project">
+                                <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/calculadora/bin" target="_blank" rel="calculadora con teclado">
+                                    <i class="bi-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="./images/ChunkKnuh.jpg" alt="ChunkKnuh">
+                        <div class="overlay">
+                            <p>ChunkKnuh</p>
+                            <div class="icons-project">
+                                <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/ChunkKnuh" target="_blank" rel="ChunkKnuh">
+                                    <i class="bi-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="./images/burbuja.jpg" alt="burbuja">
+                        <div class="overlay">
+                            <p>Metodo burbuja</p>
+                            <div class="icons-project">
+                                <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/Metodo%20Burbuja" target="_blank" rel="Metodo burbuja">
+                                    <i class="bi-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="./images/turing.jpg" alt="turing">
+                        <div class="overlay">
+                            <p>Máquina de Turing multi-cinta</p>
+                            <div class="icons-project">
+                                <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/M%C3%A1quina%20de%20Turing%20multi-cinta" target="_blank" rel="Máquina de Turing multi-cinta">
+                                    <i class="bi-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="" target="_blank" rel="noopener noreferrer"></a>
+            <button type="button" class="btn btn-info">Más proyectos
+                <i class="bi-arrow-right-circle"></i>
+            </button>
+        </a>
+    </section>
+
+    <!-- Tips -->
+    <section class="tips justify-content-start">
+        <h2 class="seccion-titulo">Tips</h2>
+        <div class="card">
+            <div class="card-header">
+                Sobre Programación
+            </div>
+            <ul class="list-group list-group-flush">
+                <a href="https://youtu.be/54J5S_v8Zco?si=_jCCdETGmRETPuM4" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Construir un Max Heap</li>
+                </a>
+                <a href="https://www.youtube.com/watch?v=r7yOMz8HrHk&list=PLqhLgomZ_RCMEdUG_lOv8ibTJ92sLbIDx" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Como e instalar usar grapih en Dev-C++</li>
+                </a>
+                <a href="https://www.youtube.com/watch?v=A44IMPXQt3g" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">microcontrolador ATMEGA328P</li>
+                </a>
+                <a href="https://academiasanroque.com/ordenar-arraylist-en-java-metodos-y-ejemplos-practicos/#:~:text=sort(),que%20implementan%20la%20interfaz%20Comparable%20." target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Uso de ArrayList<></li>
+                </a>
+                <a href="https://www.youtube.com/watch?v=mx5eZwlcg78" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Uso de Layout en Java</li>
+                </a>
+            </ul>
+        </div>
+        <a href="" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">Más tips
+                <i class="bi-arrow-right-circle"></i>
+            </button>
+        </a>
+    </section>
+
+    <!-- References -->
+    <section id="references" class="recomendaciones section-clara">
+        <h2 class="seccion-titulo">Recomendaciones</h2>
+        <h3 class="seccion-descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+        <div id="recomendaciones" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#recomendaciones" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#recomendaciones" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#recomendaciones" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <img src="./images/simi.jpg" class="recomendacion-imagen rounded-circle" alt="...">
+                    <p class="recomendacion-texto">Su capacidad para generar reportes detallados y automatizar tareas rutinarias ha mejorado considerablemente la productividad del equipo. Recomendaría a Mane sin reservas para cualquier rol que requiera un uso experto de herramientas de Microsoft para la gestión de datos.</p>
+                    <div class="recomendacion-info">
+                        <p class="Conocido">Marco Antonio Martinez Caloca</p>
+                        <p class="cargo">Jefe de las sucrusales de Simi de Puerto Escondido</p>
+                    </div>                    
+                </div>
+            </div> 
+            <div class="carousel-item">
+                <div class="container">
+                    <img src="./images/gera.jpg" class="recomendacion-imagen rounded-circle" alt="...">
+                    <p class="recomendacion-texto"> es una persona increíblemente dedicada y apasionada por la tecnología. Siempre está dispuesta a ayudar y a encontrar soluciones a cualquier problema. Es una gran compañera y su entusiasmo por aprender cosas nuevas la hace destacar.</p>
+                    <div class="recomendacion-info">
+                        <p class="amigo">Gerardo</p>
+                        <p class="cargo">Amigo</p>
+                    </div>                    
+                </div>
+            </div>
+            
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#recomendaciones"  data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#recomendaciones"  data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contactme" class="contact section-oscura">
+        <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        contacto
+                    </div>
+                    <div class="col-12 col-md-4 description">
+                        Si tienes alguna pregunta o deseas colaborar en un proyecto, no dudes en ponerte en contacto conmigo:
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto:">
+                            <button type="button">
+                                Veca731205@gmail.com
+                                <i class="bi-envelope-check"></i>
+                            </button>
+                        </a>                        
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-oscura d-flex flex-column aling-items-center justify-content-center">
+        <img class="footer-icon" src="./images/patoICON.png" alt="Logo profile">
+        <p class="footer-text text-center">
+            Puedes encontrarme como Veca-LAG  <br> 2024 Mane Isabela Velasco Naranjo. Todos los derechos reservados
+        </p>
+        <div class="icons-sn d-flex flex-wrap aling-items-center justify-content-center">
+            <a href="https://x.com/veca731205" target="_blank" rel="noopener noreferrer">
+                <i class="bi-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com/share/nDmb5mFikxCYFHYn/" target="_blank" rel="noopener noreferrer">
+                <i class="bi-facebook"></i>
+            </a>
+            <a href="https://github.com/Veca-LAG" target="_blank" rel="noopener noreferrer">
+                <i class="bi-github"></i>
+            </a>
+            <a href="www.linkedin.com/in/veca-lag-b87692333" target="_blank" rel="noopener noreferrer">
+                <i class="bi-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/veca_lag?igsh=MWoxa2l3dWxxanpoZQ==" target="_blank" rel="noopener noreferrer">
+                <i class="bi-instagram"></i>
+            </a>
+            <a href="Veca731205@gmail.com:" target="_blank" rel="noopener noreferrer">
+                <i class="bi-envelope"></i>
+            </a>
+        </div>
+        <div class="author">Veca-LAG (2024) &#169; </div>
+    </footer>
+
+    <!-- Bootstrap JS offline -->
+    <script src="./js/bootstrap.min.js"></script>    
+    <!-- Bootstrap JS online -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> -->
+    <!-- My JS -->
+    <script src="./js/main.js"></script>    
+</body>
+</html>
