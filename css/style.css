@@ -1,7 +1,7 @@
 /*body {
-    cursor: url(images/default.png), auto;
-    background-color: #f01ea7;
-}*/
+    cursor: url(/images/curso_normal.png),default;*/
+    /*background-color: #f01ea7;*/
+/*}*/
 
 
 :root {
@@ -22,7 +22,6 @@
 /**/
 .navbar-nav {
     align-items: center;
-    /*background-color: #c00606;*/
 }
 
 .navbar-collapse {
