@@ -17,6 +17,7 @@
 .navbar {
     padding: 2rem;
     background-color: #a5e1fb;
+    font-family: "arial", sans-serif;/*arial*/
 }
 
 /**/
@@ -83,6 +84,7 @@
 
 .experiencia {
     padding: 40px;
+    font-family: "arial", sans-serif;/*arial*/
 }
 
 .experiencia-columna:hover {
@@ -95,6 +97,7 @@
     font-size: 25px;
     font-weight: bold;
     margin: 10px 0;
+    
 }
 
 .experiencia i {
@@ -128,7 +131,7 @@
 
 .proyectos {
     padding: 40px;
-    
+    font-family: "arial", sans-serif;/*arial*/
     background-color: #9ef0ff;
 }
 
@@ -211,6 +214,7 @@ h1 {
 .tips {
     min-height: 500px;
     padding: 30px;
+    font-family: "arial", sans-serif;/*arial*/
 }
 
 .tips .card {
@@ -282,7 +286,7 @@ h1 {
     max-width: 1100px;
     min-height: 200px;
     padding: 20px;
-    
+    font-family: "arial", sans-serif;/*arial*/
 }
 
 .contact .rectangulo {
@@ -329,6 +333,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "papyrus", sans-serif;/*arial*/
 }
 
 .footer-icon {
