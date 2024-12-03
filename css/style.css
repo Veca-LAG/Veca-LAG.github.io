@@ -1,7 +1,7 @@
-body {
-    cursor: url('images/curso_normal.png') 32 32, auto;
+/*body {
+    cursor: url(images/default.png), auto;
     background-color: #f01ea7;
-}
+}*/
 
 
 :root {
@@ -16,17 +16,19 @@ body {
 /* Navbar */
 .navbar {
     padding: 2rem;
-    background-color: #dcdf13;
+    background-color: #9ee2ff;
 }
 
 /**/
 .navbar-nav {
     align-items: center;
+    /*background-color: #c00606;*/
 }
 
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
+    /*background-color: #f5f5f5;*/
 }
 
 /* MyClass */
@@ -127,6 +129,8 @@ body {
 
 .proyectos {
     padding: 40px;
+    
+    background-color: #9ef0ff;
 }
 
 .proyectos img {
@@ -167,6 +171,7 @@ body {
 
 .proyecto {
     position: relative;
+    background-color: #f9ff9e;
 }
 
 .proyecto:hover img {
@@ -221,11 +226,12 @@ h1 {
 
 .recomendaciones {
     padding: 40px 40px 80px 40px;
+    font-family: "Papyrus", sans-serif;/*papyrus*/
 }
 
 .recomendaciones .carousel {
     max-width: 800px;
-    color:#6C63FF
+    color:#222222
 }
 
 .carousel-item {
@@ -277,6 +283,7 @@ h1 {
     max-width: 1100px;
     min-height: 200px;
     padding: 20px;
+    
 }
 
 .contact .rectangulo {
