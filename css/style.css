@@ -1,3 +1,9 @@
+body {
+    cursor: url('images/curso_normal.png') 32 32, auto;
+    background-color: #f01ea7;
+}
+
+
 :root {
     --color_0: #3F3D56;
     --color_1: #6C63FF;
@@ -6,10 +12,11 @@
     --color_4: #FFB9B9;
 }
 
+
 /* Navbar */
 .navbar {
     padding: 2rem;
-    background-color: #f5f6f7;
+    background-color: #dcdf13;
 }
 
 .navbar-nav {
@@ -23,9 +30,11 @@
 
 /* MyClass */
 .myclass {
-    background-color: #f5f6f7;
+    background-color: #273746;
     min-height: 450px;
     text-align: center;
+    font-family: "Papyrus", sans-serif;/*papyrus*/
+    color :#f5f6f7;
 }
 
 .myclass-main {
@@ -46,8 +55,9 @@
 
 
 .about-me {
-    height: 500px;
+    height: 350px;
     padding: 10px;
+    font-family: "Papyrus", sans-serif;
 }
 
 .section-oscura {
@@ -96,6 +106,7 @@
 .seccion-descripcion {
     font-size: 1.2rem;
     color: var(--color_0);
+    
 }
 
 .section-clara {
