@@ -11,13 +11,16 @@
     --color_3: #CCCCCC;
     --color_4: #FFB9B9;
 }
-
+/*cursores*/
+.row{
+    cursor: url('/images/curso_seleccionado.png'),auto;
+}
 
 /* Navbar */
 .navbar {
     padding: 2rem;
     background-color: #a5e1fb;
-    font-family: "arial", sans-serif;/*arial*/
+    font-family: "neucha", sans-serif;/*arial*/
 }
 
 /**/
