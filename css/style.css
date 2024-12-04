@@ -1,8 +1,3 @@
-/*body {
-    cursor: url(/images/curso_normal.png),default;*/
-    /*background-color: #f01ea7;*/
-/*}*/
-
 
 :root {
     --color_0: #3F3D56;
@@ -12,26 +7,38 @@
     --color_4: #FFB9B9;
 }
 /*cursores*/
-.row{
-    cursor: url('/images/curso_seleccionado.png'),auto;
+.row .experiencia-columna:hover,.proyecto:hover{
+    cursor: url('/images/cursor_rojo.png'),auto;
+}
+.row a,
+.row button {
+    cursor: url('/images/cursor_rojo.png'), auto;
 }
 
 /* Navbar */
+.navbar-brand{
+    cursor: url('/images/cursor_verde.png'), auto ;
+}
+.navbar a,
+.navbar button {
+    cursor: url('/images/cursor_verde.png'), auto;
+}
 .navbar {
-    padding: 2rem;
+    padding: 5px;
     background-color: #a5e1fb;
     font-family: "neucha", sans-serif;/*arial*/
+    
 }
-
 /**/
 .navbar-nav {
     align-items: center;
+    cursor: url('/images/cursor_verde.png'), pointer ;
+
 }
 
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
-    /*background-color: #f5f5f5;*/
 }
 
 /* MyClass */
@@ -138,6 +145,7 @@
     background-color: #9ef0ff;
 }
 
+
 .proyectos img {
     height: 100%;
     width: 100%;
@@ -206,12 +214,14 @@ h1 {
     font-size: 1.1rem;
     margin: 20px;
     font-weight: bold;    
+    
 }
 
 .btn-info:hover {
     background-color: #6C63FF;
     color:  #2F2E41;
     border: #6C63FF;
+    cursor: url('/images/cursor_rojo.png'), auto;
 }
 
 .tips {
@@ -229,6 +239,12 @@ h1 {
 .tips .card-header {
     font-weight: bold;
 }
+
+.tips :hover a,
+.tips :hover button {
+    cursor: url('/images/cursor_rojo.png'), auto; /* Aplica cursor personalizado */
+}
+
 
 .recomendaciones {
     padding: 40px 40px 80px 40px;
@@ -251,6 +267,13 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+}
+
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next,
+.carousel .carousel-indicators button {
+    cursor: url('/images/cursor_rojo.png'), auto;
 }
 
 .recomendacion-imagen {
@@ -303,6 +326,7 @@ h1 {
     width: 100%;
     display: flex;
     align-items: center;
+    
 }
 
 .contact .description {
@@ -319,6 +343,7 @@ h1 {
     margin: 10px;
     border-radius: 100px;
     transition: all 0.2s ease-in-out;
+    
 }
 
 .contact button i {
@@ -329,6 +354,7 @@ h1 {
 
 .contact button:hover {
     background-color:  var(--color_0);
+    cursor: url('/images/cursor_azul.png'), auto;
 }
 
 footer {
@@ -362,6 +388,7 @@ footer {
     border: 2px solid var(--color_3);
     border-radius: 50%;
     transition: all 0.2s ease-in;
+    cursor: url('/images/cursor_azul.png'), auto;
 }
 
 .icons-sn i {
