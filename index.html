@@ -52,7 +52,7 @@
     <nav class="navbar navbar-expand-md navbar-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler"
-                aria-expanded="false" aria-label="Toggle navigation">
+                aria-expanded="false" aria-label="Toggle navigation" style="cursor: url('/images/cursor_verde.png'), auto;">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar-toggler">
@@ -152,99 +152,109 @@
     <!-- Projects -->
     <section id="projects" class="proyectos section-clara d-flex flex-column">
         <h2 class="seccion-titulo">Mis Proyectos</h2>
-        <h3 class="seccion-descripcion">Proyectos de programas de C, C++ y java que he hecho desde el 2022 a 2024. </h3>
-        <!-- gallery -->
+        <h3 class="seccion-descripcion">Proyectos de programas de C, C++ y Java que he hecho desde el 2022 a 2024.</h3>
+    
+        <!-- Botones de filtro -->
+        <div class="text-center mb-4">
+        <button class="btn btn-outline-primary filter-btn" data-filter="all" style="cursor: url('/images/cursor_verde.png'), auto;">Todos</button>
+        <button class="btn btn-outline-success filter-btn" data-filter="c" style="cursor: url('/images/cursor_verde.png'), auto;">C</button>
+        <button class="btn btn-outline-warning filter-btn" data-filter="cpp" style="cursor: url('/images/cursor_verde.png'), auto;">C++</button>
+        <button class="btn btn-outline-danger filter-btn" data-filter="java" style="cursor: url('/images/cursor_verde.png'), auto;">Java</button>
+        </div>
+    
+        <!-- Galería -->
         <div class="container text-center proyectos-contenedor">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img src="./images/contabilidad.jpg" alt="Captura del libro de cuentas hecho en C">
-                        <div class="overlay">
-                            <p>Libro de cuentas</p>
-                            <div class="icons-project">
-                                <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/Libro%20de%20cuentas" target="_blank" rel="Libro de cuentas">
-                                    <i class="bi-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto c">
+                <img src="./images/contabilidad.jpg" alt="Libro de cuentas en C">
+                <div class="overlay">
+                <p>Libro de cuentas</p>
+                <div class="icons-project">
+                    <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/Libro%20de%20cuentas" target="_blank" rel="noopener noreferrer">
+                    <i class="bi-github"></i>
+                    </a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img src="./images/calculadora.jpg" alt="Comunicación de dos microprocesadores para formar una calculadora">
-                        <div class="overlay">
-                            <p>calculadora con teclado</p>
-                            <div class="icons-project">
-                                <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/calculadora/bin" target="_blank" rel="calculadora con teclado">
-                                    <i class="bi-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img src="./images/ChunkKnuh.jpg" alt="Catalogo de sets de Legos">
-                        <div class="overlay">
-                            <p>ChunkKnuh</p>
-                            <div class="icons-project">
-                                <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/ChunkKnuh" target="_blank" rel="ChunkKnuh">
-                                    <i class="bi-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+            </div>
+    
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto c">
+                <img src="./images/calculadora.jpg" alt="Calculadora con microprocesadores">
+                <div class="overlay">
+                <p>Calculadora con teclado</p>
+                <div class="icons-project">
+                    <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/calculadora/bin" target="_blank" rel="noopener noreferrer">
+                    <i class="bi-github"></i>
+                    </a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img src="./images/burbuja.jpg" alt="Metodo burbuja con animación">
-                        <div class="overlay">
-                            <p>Metodo burbuja</p>
-                            <div class="icons-project">
-                                <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/Metodo%20Burbuja" target="_blank" rel="Metodo burbuja">
-                                    <i class="bi-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img src="./images/Turing.jpg" alt="Maquina de turing con grafo visual">
-                        <div class="overlay">
-                            <p>Turing multicinta</p>
-                            <div class="icons-project">
-                                <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/M%C3%A1quina%20de%20Turing%20multi-cinta" target="_blank" rel="Máquina de Turing multi-cinta">
-                                    <i class="bi-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+            </div>
+    
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto java">
+                <img src="./images/ChunkKnuh.jpg" alt="Catalogo ChunkKnuh en Java">
+                <div class="overlay">
+                <p>ChunkKnuh</p>
+                <div class="icons-project">
+                    <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/ChunkKnuh" target="_blank" rel="noopener noreferrer">
+                    <i class="bi-github"></i>
+                    </a>
                 </div>
-
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img src="./images/AFD.jpg" alt="Autómata Finito Determinista con grafo visual">
-                        <div class="overlay">
-                            <p>AFD</p>
-                            <div class="icons-project">
-                                <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/Aut%C3%B3mata%20Finito%20Determinista" target="_blank" rel="Autómata Finito Determinista">
-                                    <i class="bi-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                
-                
+            </div>
+            </div>
+    
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto c">
+                <img src="./images/burbuja.jpg" alt="Método Burbuja en C">
+                <div class="overlay">
+                <p>Método burbuja</p>
+                <div class="icons-project">
+                    <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/Metodo%20Burbuja" target="_blank" rel="noopener noreferrer">
+                    <i class="bi-github"></i>
+                    </a>
+                </div>
+                </div>
+            </div>
+            </div>
+    
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto cpp">
+                <img src="./images/Turing.jpg" alt="Máquina de Turing en Java">
+                <div class="overlay">
+                <p>Turing multicinta</p>
+                <div class="icons-project">
+                    <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/M%C3%A1quina%20de%20Turing%20multi-cinta" target="_blank" rel="noopener noreferrer">
+                    <i class="bi-github"></i>
+                    </a>
+                </div>
+                </div>
+            </div>
+            </div>
+    
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto cpp">
+                <img src="./images/AFD.jpg" alt="AFD en C++">
+                <div class="overlay">
+                <p>AFD</p>
+                <div class="icons-project">
+                    <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/Aut%C3%B3mata%20Finito%20Determinista" target="_blank" rel="noopener noreferrer">
+                    <i class="bi-github"></i>
+                    </a>
+                </div>
+                </div>
+            </div>
             </div>
         </div>
+        </div>
+    
+        <!-- Botón de más proyectos -->
         <a href="https://github.com/Veca-LAG/ManeVelasco-Proyectos/tree/main/code/my_profile/proyectos/Otros%20Proyectos" target="_blank" rel="noopener noreferrer">
-            <button type="button" class="btn btn-info">Más proyectos
-                <i class="bi-arrow-right-circle"></i>
-            </button>
+        <button type="button" class="btn btn-info mt-3">Más proyectos <i class="bi-arrow-right-circle"></i></button>
         </a>
-        
     </section>
 
     <!-- Tips -->
@@ -392,16 +402,16 @@
     <!-- My JS -->
     <script src="./js/main.js"></script>    
 
-    <!-- Al final del body -->
+    <!-- jQuery para filtro -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
     $(".filter-btn").on("click", function () {
         const filter = $(this).data("filter");
         if (filter === "all") {
-        $(".proyecto").show();
+        $(".proyecto").parent().show();
         } else {
-        $(".proyecto").hide();
-        $("." + filter).fadeIn();
+        $(".proyecto").parent().hide();
+        $("." + filter).parent().fadeIn();
         }
     });
     </script>
