@@ -445,8 +445,3 @@ footer {
         font-size: 18px;
     }
 }
-
-.card:hover {
-    transform: scale(1.03);
-    transition: transform 0.3s ease-in-out;
-  }
