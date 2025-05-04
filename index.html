@@ -2,11 +2,11 @@
 <html lang="es">
 <head>
     <!-- Metadatos -->
-     <!-- Caracteres y codificación -->
+    <!-- Caracteres y codificación -->
     <meta charset="UTF-8">
     <!-- actualizar -->
     <meta name="author" content="Mane Isabela Velasco Naranjo">
-    <meta name="description" content="Portafolio proyecto de Diseño Web">
+    <meta name="description" content="Portafolio proyecto mejorado">
     <meta name="keywords" content="Java, C, C++, HeidiSQL, MariaDB, Eclipse, Dev-C, contador, HTML, CSS, JS">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title -->
@@ -24,9 +24,7 @@
     <!-- My CSS -->
     <link href="./css/style.css" rel="stylesheet">
     <!--graph-->
-    	<!-- Facebook Meta Tags -->
-
-    <title>Mane Isabela Velasco Naranjo</title>
+    <!-- Facebook Meta Tags -->
     <meta name="description" content=" Soy estudiante de quinto semestre de la Licenciatura en Informática en la Universidad del Mar (UMAR), campus Puerto Escondido. Mi formación académica me ha permitido desarrollar una sólida base en diversas áreas de la tecnología, así como adquirir habilidades para la solución de problemas y el análisis crítico. <br>Estoy comprometida con mi desarrollo profesional y siempre en búsqueda de nuevos retos que me permitan aplicar y expandir mis conocimientos.">
 
 
@@ -150,6 +148,7 @@
         </div>
     </section>
 
+    
     <!-- Projects -->
     <section id="projects" class="proyectos section-clara d-flex flex-column">
         <h2 class="seccion-titulo">Mis Proyectos</h2>
@@ -159,7 +158,7 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="proyecto">
-                        <img src="./images/contabilidad.jpg" alt="contabilidad">
+                        <img src="./images/contabilidad.jpg" alt="Captura del libro de cuentas hecho en C">
                         <div class="overlay">
                             <p>Libro de cuentas</p>
                             <div class="icons-project">
@@ -172,7 +171,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="proyecto">
-                        <img src="./images/calculadora.jpg" alt="calculadora">
+                        <img src="./images/calculadora.jpg" alt="Comunicación de dos microprocesadores para formar una calculadora">
                         <div class="overlay">
                             <p>calculadora con teclado</p>
                             <div class="icons-project">
@@ -185,7 +184,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="proyecto">
-                        <img src="./images/ChunkKnuh.jpg" alt="ChunkKnuh">
+                        <img src="./images/ChunkKnuh.jpg" alt="Catalogo de sets de Legos">
                         <div class="overlay">
                             <p>ChunkKnuh</p>
                             <div class="icons-project">
@@ -376,7 +375,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> 
     <!-- My JS -->
     <script src="./js/main.js"></script>    
-   
+
+    <!-- Al final del body -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    $(".filter-btn").on("click", function () {
+        const filter = $(this).data("filter");
+        if (filter === "all") {
+        $(".proyecto").show();
+        } else {
+        $(".proyecto").hide();
+        $("." + filter).fadeIn();
+        }
+    });
+    </script>
+
 
 </body>
 </html>
